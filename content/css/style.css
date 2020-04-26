@@ -1,0 +1,173 @@
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*navbar*/
+
+.opacity {
+    opacity: 0.8;
+}
+
+#navtext {
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: "Prata", sans-serif;
+    opacity: 0.7;
+    background: rgb(0, 0, 0, 0);
+}
+
+#navtext:hover {
+    opacity: 1;
+    color: black;
+}
+
+#navtext:active {
+    color: black;
+    opacity: 1;
+}
+
+#navtext:focus {
+    color: black;
+    opacity: 1;
+}
+
+
+/*section1*/
+
+.background {
+    background-image: url("../images/background1.jpg");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+#Bbtn {
+    padding: 12px 45px;
+    opacity: 0.9;
+}
+
+#Bbtn:hover {
+    opacity: 1;
+    color: black;
+    font-weight: bolder;
+}
+
+#Bbtn:active {
+    opacity: 1;
+    color: black;
+    font-weight: bolder;
+}
+
+#Bbtn:focus {
+    opacity: 1;
+    color: black;
+    font-weight: bolder;
+}
+
+
+/*section2*/
+
+.container2 {
+    padding-left: 12em;
+    padding-top: 5em;
+    padding-right: 12em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*section3*/
+
+.container3 {
+    padding-top: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+}
+
+.colored-row {
+    background: linear-gradient(90deg, rgba(252, 209, 34, 1) 0%, rgba(242, 249, 190, 1) 47%, rgba(252, 209, 34, 1) 100%);
+}
+
+.heading3 {
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+
+/*section4*/
+
+.heading4 {
+    text-align: left;
+}
+
+.img-div {
+    position: relative;
+    width: 350px;
+    display: inline-block;
+}
+
+.imgcircle {
+    width: 100%;
+}
+
+.row-images {
+    padding-left: 5em;
+    padding-right: 5em;
+    align-content: center;
+}
+
+.headings3 {
+    padding-top: 2em;
+}
+
+
+/*section 6*/
+
+.container6 {
+    padding-top: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+}
+
+.rows6 {
+    background-color: rgb(255, 184, 51);
+}
+
+.heading6 {
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+
+/*section7*/
+
+.heading7 {
+    text-align: justify;
+}
+
+.row7 {
+    padding-bottom: 5em;
+    padding-top: 3em;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
